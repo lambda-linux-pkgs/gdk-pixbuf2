@@ -128,6 +128,11 @@ fi
 
 
 %changelog
+* Thu Jan 15 2015 Rajiv M Ranganath <rajiv.ranganath@atihita.com> 2.28.2-4
+- Adapt for AL/LL
+- Add package support URL
+- Import source package SL7/gdk-pixbuf2-2.28.2-4.el7
+
 * Fri Jan 24 2014 Daniel Mach <dmach@redhat.com> - 2.28.2-4
 - Mass rebuild 2014-01-24
 
