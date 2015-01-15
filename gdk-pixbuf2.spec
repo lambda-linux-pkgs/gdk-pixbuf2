@@ -36,6 +36,9 @@ Requires: shared-mime-info
 Conflicts: gtk2 <= 2.21.2
 
 %description
+For package support, please visit
+https://github.com/lambda-linux-pkgs/%{name}/issues
+
 gdk-pixbuf is an image loading library that can be extended by loadable
 modules for new image formats. It is used by toolkits such as GTK+ or
 clutter.
@@ -50,6 +53,9 @@ Requires: glib2-devel >= %{glib2_version}
 Conflicts: gtk2-devel <= 2.21.2
 
 %description devel
+For package support, please visit
+https://github.com/lambda-linux-pkgs/%{name}/issues
+
 This package contains the libraries and header files that are needed
 for writing applications that are using gdk-pixbuf.
 
