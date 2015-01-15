@@ -1,8 +1,10 @@
+%define _buildid .1
+
 %global glib2_version 2.34.0
 
 Name:           gdk-pixbuf2
 Version:        2.28.2
-Release:        4%{?dist}
+Release:        4%{?_buildid}%{?dist}
 Summary:        An image loading library
 
 Group:          System Environment/Libraries
